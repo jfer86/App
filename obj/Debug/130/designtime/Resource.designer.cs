@@ -4107,10 +4107,13 @@ namespace App
 			public const int visible_removing_fragment_view_tag = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int withText = 2131230959;
+			public const int welcome_text = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int wrap_content = 2131230960;
+			public const int withText = 2131230960;
+			
+			// aapt resource value: 0x7F0800F1
+			public const int wrap_content = 2131230961;
 			
 			static Id()
 			{
@@ -4599,6 +4602,9 @@ namespace App
 			
 			// aapt resource value: 0x7F0D0034
 			public const int status_bar_notification_info_overflow = 2131558452;
+			
+			// aapt resource value: 0x7F0D0035
+			public const int welcome = 2131558453;
 			
 			static String()
 			{

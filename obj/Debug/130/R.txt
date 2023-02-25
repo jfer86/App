@@ -1263,8 +1263,9 @@ int id view_offset_helper 0x7f0800eb
 int id view_tree_saved_state_registry_owner 0x7f0800ec
 int id visible 0x7f0800ed
 int id visible_removing_fragment_view_tag 0x7f0800ee
-int id withText 0x7f0800ef
-int id wrap_content 0x7f0800f0
+int id welcome_text 0x7f0800ef
+int id withText 0x7f0800f0
+int id wrap_content 0x7f0800f1
 int integer abc_config_activityDefaultDur 0x7f090000
 int integer abc_config_activityShortDur 0x7f090001
 int integer app_bar_elevation_anim_duration 0x7f090002
@@ -1406,6 +1407,7 @@ int string path_password_eye_mask_visible 0x7f0d0031
 int string path_password_strike_through 0x7f0d0032
 int string search_menu_title 0x7f0d0033
 int string status_bar_notification_info_overflow 0x7f0d0034
+int string welcome 0x7f0d0035
 int style AlertDialog_AppCompat 0x7f0e0000
 int style AlertDialog_AppCompat_Light 0x7f0e0001
 int style Animation_AppCompat_Dialog 0x7f0e0002
