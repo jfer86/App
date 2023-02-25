@@ -9,4 +9,6 @@
 	<string name="login">Iniciar sesión</string>
 	<string name="forgot_password">Olvidaste tu contraseña?</string>
 
+	<string name="welcome">Bienvenido de nuevo</string>
+
 </resources>
