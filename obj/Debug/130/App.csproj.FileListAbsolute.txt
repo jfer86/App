@@ -56,7 +56,6 @@ C:\Users\pc\source\repos\App\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher.png
 C:\Users\pc\source\repos\App\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_foreground.png
 C:\Users\pc\source\repos\App\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_round.png
 C:\Users\pc\source\repos\App\obj\Debug\130\res\layout\welcome.xml
-C:\Users\pc\source\repos\App\obj\Debug\130\res\drawable\login.jpg
 C:\Users\pc\source\repos\App\obj\Debug\130\uploadflags.txt
 C:\Users\pc\source\repos\App\obj\Debug\130\resolvedassemblies.hash
 C:\Users\pc\source\repos\App\obj\Debug\130\android\assets\App.dll
@@ -315,3 +314,4 @@ C:\Users\pc\source\repos\App\obj\Debug\130\android\src\crc64a5348383e4b6edfd\Agr
 C:\Users\pc\source\repos\App\obj\Debug\130\android\src\crc64a5348383e4b6edfd\ConsultarActivity.java
 C:\Users\pc\source\repos\App\obj\Debug\130\android\src\crc64a5348383e4b6edfd\EditarActivity.java
 C:\Users\pc\source\repos\App\obj\Debug\130\res\layout\agregar.xml
+C:\Users\pc\source\repos\App\obj\Debug\130\res\drawable\profile_picture.jpg
