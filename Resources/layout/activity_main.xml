@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:src="@drawable/login"
+        android:src="@drawable/profile_picture"
         android:id="@+id/logo"
         android:layout_width="200dp"
         android:layout_height="200dp"

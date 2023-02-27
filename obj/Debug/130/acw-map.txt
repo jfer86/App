@@ -1,6 +1,12 @@
 App.MainActivity, App;crc64a27fdd34899c7945.MainActivity
 App.MainActivity;crc64a27fdd34899c7945.MainActivity
 app.MainActivity;crc64a27fdd34899c7945.MainActivity
+App.Resources.Activities.AgregarActivity, App;crc64a5348383e4b6edfd.AgregarActivity
+App.Resources.Activities.AgregarActivity;crc64a5348383e4b6edfd.AgregarActivity
+app.resources.activities.AgregarActivity;crc64a5348383e4b6edfd.AgregarActivity
+App.Resources.Activities.ConsultarActivity, App;crc64a5348383e4b6edfd.ConsultarActivity
+App.Resources.Activities.ConsultarActivity;crc64a5348383e4b6edfd.ConsultarActivity
+app.resources.activities.ConsultarActivity;crc64a5348383e4b6edfd.ConsultarActivity
 App.Resources.Activities.WelcomeActivity, App;crc64a5348383e4b6edfd.WelcomeActivity
 App.Resources.Activities.WelcomeActivity;crc64a5348383e4b6edfd.WelcomeActivity
 app.resources.activities.WelcomeActivity;crc64a5348383e4b6edfd.WelcomeActivity

@@ -1,19 +1,23 @@
 ﻿using Android.App;
+using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using AndroidX.AppCompat.App;
+using Android.Widget;
 
 namespace App.Resources.Activities
 {
     [Activity(Label = "WelcomeActivity")]
-    public class WelcomeActivity : AppCompatActivity
+    public class WelcomeActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            // Establecer nuestra vista a partir del recurso de diseño 'welcome'
+
+            // Cargar el layout de la actividad
             SetContentView(Resource.Layout.welcome);
 
+         
+
+            
         }
     }
 }
