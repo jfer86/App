@@ -2,7 +2,7 @@ package crc64a5348383e4b6edfd;
 
 
 public class WelcomeActivity
-	extends androidx.appcompat.app.AppCompatActivity
+	extends android.app.Activity
 	implements
 		mono.android.IGCUserPeer
 {
@@ -21,15 +21,6 @@ public class WelcomeActivity
 		super ();
 		if (getClass () == WelcomeActivity.class) {
 			mono.android.TypeManager.Activate ("App.Resources.Activities.WelcomeActivity, App", "", this, new java.lang.Object[] {  });
-		}
-	}
-
-
-	public WelcomeActivity (int p0)
-	{
-		super (p0);
-		if (getClass () == WelcomeActivity.class) {
-			mono.android.TypeManager.Activate ("App.Resources.Activities.WelcomeActivity, App", "System.Int32, mscorlib", this, new java.lang.Object[] { p0 });
 		}
 	}
 

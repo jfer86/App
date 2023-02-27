@@ -27,6 +27,8 @@ ListView;obj\Debug\130\res\layout\welcome.xml
 menu;obj\Debug\130\res\layout\search1.xml
 paths;C:\Users\pc\source\repos\App\obj\Debug\130\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj\Debug\130\res\layout\activity_main.xml
+RelativeLayout;obj\Debug\130\res\layout\agregar.xml
+RelativeLayout;obj\Debug\130\res\layout\consultar.xml
 RelativeLayout;obj\Debug\130\res\layout\welcome.xml
 resources;obj\Debug\130\res\values\colors.xml
 resources;obj\Debug\130\res\values\ic_launcher_background.xml
@@ -35,4 +37,6 @@ resources;obj\Debug\130\res\values\styles.xml
 string;obj\Debug\130\res\values\strings.xml
 style;obj\Debug\130\res\values\styles.xml
 TextView;obj\Debug\130\res\layout\activity_main.xml
+TextView;obj\Debug\130\res\layout\agregar.xml
+TextView;obj\Debug\130\res\layout\consultar.xml
 TextView;obj\Debug\130\res\layout\welcome.xml
