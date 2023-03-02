@@ -2,6 +2,7 @@
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
+using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
 using App.Resources.Activities;
@@ -35,7 +36,19 @@ namespace App
                     Toast.MakeText(this, "Invalid credentials", ToastLength.Short).Show();
                 }
             };
+
+          Button Forgot_password = FindViewById<Button>(Resource.Id.forgot_password);
+            Forgot_password.Click += delegate
+            {
+                Intent intent = new Intent(this, typeof(RecoveryActivity));
+                StartActivity(intent);
+            };
+
         }
+
+
+
+
 
         private void SetupWelcomePage()
         {
@@ -59,6 +72,10 @@ namespace App
             };
         }
 
+        public void OnSendButtonClick(View view)
+        {
+            Toast.MakeText(this, "¡Se envió el correo electrónico para recuperar la contraseña!", ToastLength.Long).Show();
+        }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
