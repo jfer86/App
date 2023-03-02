@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Activities\RecoveryActivity.cs" />
     <Compile Include="Resources\Activities\AgregarActivity.cs" />
     <Compile Include="Resources\Activities\ConsultarActivity.cs" />
     <Compile Include="Resources\Activities\WelcomeActivity.cs" />
@@ -119,6 +120,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\profile_picture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\RecoverPassword.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

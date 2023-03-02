@@ -315,3 +315,5 @@ C:\Users\pc\source\repos\App\obj\Debug\130\android\src\crc64a5348383e4b6edfd\Con
 C:\Users\pc\source\repos\App\obj\Debug\130\android\src\crc64a5348383e4b6edfd\EditarActivity.java
 C:\Users\pc\source\repos\App\obj\Debug\130\res\layout\agregar.xml
 C:\Users\pc\source\repos\App\obj\Debug\130\res\drawable\profile_picture.jpg
+C:\Users\pc\source\repos\App\obj\Debug\130\res\layout\recoverpassword.xml
+C:\Users\pc\source\repos\App\obj\Debug\130\android\src\crc64a5348383e4b6edfd\RecoveryActivity.java

@@ -16,6 +16,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:name="crc64a5348383e4b6edfd.RecoveryActivity" android:label="Activity1" />
     <activity android:name="crc64a5348383e4b6edfd.AgregarActivity" android:label="AgregarActivity" />
     <activity android:name="crc64a5348383e4b6edfd.ConsultarActivity" android:label="ConsultarActivity" />
     <activity android:name="crc64a5348383e4b6edfd.WelcomeActivity" android:label="WelcomeActivity" />
