@@ -11,13 +11,23 @@ namespace App.Resources.Activities
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            // Cargar el layout de la actividad
             SetContentView(Resource.Layout.welcome);
 
-         
+            // Configurar el botón "Consultar" para abrir la actividad "ConsultarActivity"
+            Button consultarButton = FindViewById<Button>(Resource.Id.btnConsultar);
+            consultarButton.Click += delegate
+            {
+                Intent intent = new Intent(this, typeof(ConsultarActivity));
+                StartActivity(intent);
+            };
 
-            
+            // Configurar el botón "Agregar" para abrir la actividad "AgregarActivity"
+            Button agregarButton = FindViewById<Button>(Resource.Id.btnAgregar);
+            agregarButton.Click += delegate
+            {
+                Intent intent = new Intent(this, typeof(AgregarActivity));
+                StartActivity(intent);
+            };
         }
     }
 }

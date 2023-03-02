@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <RelativeLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -18,7 +18,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:textSize="30sp"/>
 
     <EditText
-    android:id="@+id/etNombre"
+        android:id="@+id/etNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/welcome_text"
@@ -29,7 +29,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:inputType="text"/>
 
     <EditText
-    android:id="@+id/etPrecio"
+        android:id="@+id/etPrecio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/etNombre"
@@ -40,7 +40,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:inputType="number"/>
 
     <EditText
-    android:id="@+id/etCantidad"
+        android:id="@+id/etCantidad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/etPrecio"
@@ -51,7 +51,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:inputType="number"/>
 
     <Button
-    android:id="@+id/btnAgregar"
+        android:id="@+id/btnAgregar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Agregar"
@@ -59,6 +59,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_below="@+id/etCantidad"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:onClick="onClickAgregar"/>      
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="onClickAgregar"/>
 
-   </RelativeLayout>
+</RelativeLayout>

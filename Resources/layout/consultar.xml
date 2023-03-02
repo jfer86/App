@@ -1,4 +1,5 @@
-﻿<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+﻿<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -19,9 +20,9 @@
         android:layout_height="wrap_content"
         android:text="Consultar"
         android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorPrimary"
         android:layout_below="@+id/search_view"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"/> 
-        //android:onClick="onClickConsultar"      
-
+        android:layout_marginTop="50dp"
+        android:onClick="OnClickListener"/>
 </RelativeLayout>

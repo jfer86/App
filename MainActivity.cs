@@ -2,7 +2,7 @@
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
-using Android.Views;
+using Android.Text;
 using Android.Widget;
 using AndroidX.AppCompat.App;
 using App.Resources.Activities;
@@ -17,7 +17,6 @@ namespace App
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
-
             // Encuentro el botón por su ID y agrego el código para verificar credenciales
             Button loginButton = FindViewById<Button>(Resource.Id.login_button);
             loginButton.Click += delegate
@@ -26,10 +25,21 @@ namespace App
                 EditText passwordEditText = FindViewById<EditText>(Resource.Id.password);
                 string email = emailEditText.Text;
                 string password = passwordEditText.Text;
+                if (TextUtils.IsEmpty(email))
+                {
+                    emailEditText.Error = "Usuario es requerido";
+                    return;
+                }
+                if (TextUtils.IsEmpty(password))
+                {
+                    passwordEditText.Error = "Password es requerido";
+                    return;
+                }
                 if (email == "admin" && password == "admin")
                 {
-                    // Configurar la página de bienvenida
-                    SetupWelcomePage();
+                    // Iniciar la actividad de bienvenida
+                    Intent intent = new Intent(this, typeof(WelcomeActivity));
+                    StartActivity(intent);
                 }
                 else
                 {
@@ -37,45 +47,14 @@ namespace App
                 }
             };
 
-          Button Forgot_password = FindViewById<Button>(Resource.Id.forgot_password);
-            Forgot_password.Click += delegate
+            Button forgotPasswordButton = FindViewById<Button>(Resource.Id.forgot_password);
+            forgotPasswordButton.Click += delegate
             {
                 Intent intent = new Intent(this, typeof(RecoveryActivity));
                 StartActivity(intent);
             };
-
         }
 
-
-
-
-
-        private void SetupWelcomePage()
-        {
-            // Establecer el contenido de la vista para la página de bienvenida
-            SetContentView(Resource.Layout.welcome);
-
-            // Configurar el botón "Consultar" para abrir la actividad "ConsultarActivity"
-            Button consultarButton = FindViewById<Button>(Resource.Id.btnConsultar);
-            consultarButton.Click += delegate
-            {
-                Intent intent = new Intent(this, typeof(ConsultarActivity));
-                StartActivity(intent);
-            };
-
-            // Configurar el botón "Agregar" para abrir la actividad "AgregarActivity"
-            Button agregarButton = FindViewById<Button>(Resource.Id.btnAgregar);
-            agregarButton.Click += delegate
-            {
-                Intent intent = new Intent(this, typeof(AgregarActivity));
-                StartActivity(intent);
-            };
-        }
-
-        public void OnSendButtonClick(View view)
-        {
-            Toast.MakeText(this, "¡Se envió el correo electrónico para recuperar la contraseña!", ToastLength.Long).Show();
-        }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);

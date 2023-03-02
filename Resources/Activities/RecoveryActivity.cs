@@ -16,7 +16,6 @@ namespace App.Resources.Activities
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.RecoverPassword);
-
             // Encuentra el botón "reset_password_button" por su ID y agrega la lógica para enviar correo electrónico de restablecimiento de contraseña
             Button resetPasswordButton = FindViewById<Button>(Resource.Id.reset_password_button);
             resetPasswordButton.Click += delegate
@@ -35,8 +34,5 @@ namespace App.Resources.Activities
                 }
             };
         }
-
-        // Create your application here
     }
-
 }
