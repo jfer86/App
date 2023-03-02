@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Runtime;
+using Android.Widget;
 using AndroidX.AppCompat.App;
 
 namespace App.Resources.Activities
@@ -12,8 +13,11 @@ namespace App.Resources.Activities
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.agregar);
-
-            // Create your application here
+            Button consultarButton = FindViewById<Button>(Resource.Id.btnAgregar);
+            consultarButton.Click += (sender, e) =>
+            {
+                Toast.MakeText(this, "Producto registrado!", ToastLength.Short).Show();
+            };
         }
     }
 }
