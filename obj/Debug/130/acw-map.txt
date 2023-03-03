@@ -1,6 +1,9 @@
 App.MainActivity, App;crc64a27fdd34899c7945.MainActivity
 App.MainActivity;crc64a27fdd34899c7945.MainActivity
 app.MainActivity;crc64a27fdd34899c7945.MainActivity
+App.Resources.Activities.OtroActivity, App;crc64a5348383e4b6edfd.OtroActivity
+App.Resources.Activities.OtroActivity;crc64a5348383e4b6edfd.OtroActivity
+app.resources.activities.OtroActivity;crc64a5348383e4b6edfd.OtroActivity
 App.Resources.Activities.RecoveryActivity, App;crc64a5348383e4b6edfd.RecoveryActivity
 App.Resources.Activities.RecoveryActivity;crc64a5348383e4b6edfd.RecoveryActivity
 app.resources.activities.RecoveryActivity;crc64a5348383e4b6edfd.RecoveryActivity

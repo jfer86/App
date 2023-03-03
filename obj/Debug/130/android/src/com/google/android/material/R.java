@@ -1110,28 +1110,28 @@ public final class R {
 		public static final int text2 = 0x7f0800dc;
 		public static final int textSpacerNoButtons = 0x7f0800dd;
 		public static final int textSpacerNoTitle = 0x7f0800de;
-		public static final int text_input_password_toggle = 0x7f0800e0;
-		public static final int textinput_counter = 0x7f0800e1;
-		public static final int textinput_error = 0x7f0800e2;
-		public static final int textinput_helper_text = 0x7f0800e3;
-		public static final int time = 0x7f0800e4;
-		public static final int title = 0x7f0800e5;
-		public static final int titleDividerNoCustom = 0x7f0800e6;
-		public static final int title_template = 0x7f0800e7;
-		public static final int top = 0x7f0800e8;
-		public static final int topPanel = 0x7f0800e9;
-		public static final int touch_outside = 0x7f0800ea;
-		public static final int transition_current_scene = 0x7f0800eb;
-		public static final int transition_layout_save = 0x7f0800ec;
-		public static final int transition_position = 0x7f0800ed;
-		public static final int transition_scene_layoutid_cache = 0x7f0800ee;
-		public static final int transition_transform = 0x7f0800ef;
-		public static final int uniform = 0x7f0800f1;
-		public static final int unlabeled = 0x7f0800f2;
-		public static final int up = 0x7f0800f3;
-		public static final int view_offset_helper = 0x7f0800f5;
-		public static final int visible = 0x7f0800f7;
-		public static final int wrap_content = 0x7f0800fb;
+		public static final int text_input_password_toggle = 0x7f0800e1;
+		public static final int textinput_counter = 0x7f0800e2;
+		public static final int textinput_error = 0x7f0800e3;
+		public static final int textinput_helper_text = 0x7f0800e4;
+		public static final int time = 0x7f0800e5;
+		public static final int title = 0x7f0800e6;
+		public static final int titleDividerNoCustom = 0x7f0800e7;
+		public static final int title_template = 0x7f0800e8;
+		public static final int top = 0x7f0800e9;
+		public static final int topPanel = 0x7f0800ea;
+		public static final int touch_outside = 0x7f0800eb;
+		public static final int transition_current_scene = 0x7f0800ec;
+		public static final int transition_layout_save = 0x7f0800ed;
+		public static final int transition_position = 0x7f0800ee;
+		public static final int transition_scene_layoutid_cache = 0x7f0800ef;
+		public static final int transition_transform = 0x7f0800f0;
+		public static final int uniform = 0x7f0800f2;
+		public static final int unlabeled = 0x7f0800f3;
+		public static final int up = 0x7f0800f4;
+		public static final int view_offset_helper = 0x7f0800f6;
+		public static final int visible = 0x7f0800f8;
+		public static final int wrap_content = 0x7f0800fc;
 	}
 	public static final class integer {
 		public static final int abc_config_activityDefaultDur = 0x7f090000;
@@ -1207,10 +1207,10 @@ public final class R {
 		public static final int notification_template_icon_group = 0x7f0b0035;
 		public static final int notification_template_part_chronometer = 0x7f0b0036;
 		public static final int notification_template_part_time = 0x7f0b0037;
-		public static final int select_dialog_item_material = 0x7f0b0039;
-		public static final int select_dialog_multichoice_material = 0x7f0b003a;
-		public static final int select_dialog_singlechoice_material = 0x7f0b003b;
-		public static final int support_simple_spinner_dropdown_item = 0x7f0b003c;
+		public static final int select_dialog_item_material = 0x7f0b003a;
+		public static final int select_dialog_multichoice_material = 0x7f0b003b;
+		public static final int select_dialog_singlechoice_material = 0x7f0b003c;
+		public static final int support_simple_spinner_dropdown_item = 0x7f0b003d;
 	}
 	public static final class string {
 		public static final int abc_action_bar_home_description = 0x7f0d0000;
