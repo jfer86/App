@@ -1,5 +1,7 @@
 adaptive-icon;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 adaptive-icon;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher_round.xml
+android.support.v7.widget.Toolbar;obj\Debug\130\res\layout\otro.xml
+androidx.appcompat.widget.Toolbar;obj\Debug\130\res\layout\otro.xml
 background;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Debug\130\res\layout\activity_main.xml
@@ -20,12 +22,18 @@ foreground;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher_round.xml
 ImageView;obj\Debug\130\res\layout\activity_main.xml
 ImageView;obj\Debug\130\res\layout\welcome.xml
+item;obj\Debug\130\res\menu\menu_main.xml
 item;obj\Debug\130\res\values\styles.xml
+LinearLayout;obj\Debug\130\res\layout\layout1.xml
+LinearLayout;obj\Debug\130\res\layout\otro.xml
 LinearLayout;obj\Debug\130\res\layout\welcome.xml
+LinearLayout;obj\Debug\130\res\menu\layout1.xml
+menu;obj\Debug\130\res\menu\menu_main.xml
 paths;C:\Users\pc\Source\Repos\AppFinal\obj\Debug\130\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj\Debug\130\res\layout\activity_main.xml
 RelativeLayout;obj\Debug\130\res\layout\agregar.xml
 RelativeLayout;obj\Debug\130\res\layout\consultar.xml
+RelativeLayout;obj\Debug\130\res\layout\otro.xml
 RelativeLayout;obj\Debug\130\res\layout\recoverpassword.xml
 RelativeLayout;obj\Debug\130\res\layout\welcome.xml
 resources;obj\Debug\130\res\values\colors.xml
@@ -36,5 +44,8 @@ SearchView;obj\Debug\130\res\layout\consultar.xml
 string;obj\Debug\130\res\values\strings.xml
 style;obj\Debug\130\res\values\styles.xml
 TextView;obj\Debug\130\res\layout\agregar.xml
+TextView;obj\Debug\130\res\layout\otro.xml
 TextView;obj\Debug\130\res\layout\recoverpassword.xml
 TextView;obj\Debug\130\res\layout\welcome.xml
+Toolbar;obj\Debug\130\res\layout\otro.xml
+View;obj\Debug\130\res\layout\otro.xml

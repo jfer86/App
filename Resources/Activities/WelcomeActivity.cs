@@ -28,6 +28,13 @@ namespace App.Resources.Activities
                 Intent intent = new Intent(this, typeof(AgregarActivity));
                 StartActivity(intent);
             };
+
+            Button otroButton = FindViewById<Button>(Resource.Id.btnOtro);
+            otroButton.Click += delegate
+            {
+                Intent intent = new Intent(this, typeof(OtroActivity));
+                StartActivity(intent);
+            };
         }
     }
 }
